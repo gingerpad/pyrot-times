@@ -33,9 +33,9 @@ $(function(){
 			me.people = [
 				{ name: '',	IGN: 'KABAM TIME', location: 'USA', timezone: 'US/Pacific', group: 0 },
 				{ name: 'Ray',	IGN: 'Rekon19', location: '??, USA', timezone: 'US/Mountain', group: 2 },
+				{ name: '??',	IGN: 'jlewis8227', location: 'Kentucky, USA', timezone: 'US/Central', group: 2 },
 				{ name: 'Elan',	IGN: 'es128', location: 'Miami, USA', timezone: 'US/Eastern', group: 2 },
 				{ name: '??', 	IGN: 'evolkill', location: '??, USA', timezone: 'US/Eastern', group: 1 },
-				{ name: '??',	IGN: 'jlewis8227', location: 'Kentucky, USA', timezone: 'US/Eastern', group: 2 },
 				{ name: 'Noel',	IGN: 'nellob', location: 'Washington, D.C., USA', timezone: 'US/Eastern', group: 2 },
 				{ name: 'Nate',	IGN: 'Thatguy345', location: 'New York, USA', timezone: 'US/Eastern', group: 3 },
 				{ name: '??',	IGN: 'Light Magicians', location: 'Trinidad', timezone: 'America/Port_of_Spain', group: 3 },
