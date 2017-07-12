@@ -50,7 +50,7 @@ $(function(){
 				{ name: 'Gary', 	IGN: 'Smivverz', location: 'Ipswich, UK', timezone: 'Europe/London', group: 1 },
 				{ name: '??', 	IGN: 'Spartan-AROO', location: 'UK', timezone: 'Europe/London', group: 1 },
 				{ name: '??', 	IGN: 'Stuart36', location: 'UK', timezone: 'Europe/London', group: 1 },
-				{ name: '??', 	IGN: 'The Slimline', location: 'UK', timezone: 'Europe/London', group: 3 },
+				{ name: '??', 	IGN: 'The Slimline', location: 'London, UK', timezone: 'Europe/London', group: 3 },
 				{ name: '??', 	IGN: 'Toc.', location: 'Scotland, UK', timezone: 'Europe/London', group: 1 },
 				{ name: 'Stephen', 	IGN: 'Stephen Brady', location: 'Dublin, Ireland', timezone: 'Europe/Dublin', group: 3 },
 				{ name: '??', 	IGN: 'E.S.3', location: 'Albania', timezone: 'Europe/Tirane', group: 1 },
