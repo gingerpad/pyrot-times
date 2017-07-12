@@ -30,7 +30,7 @@ $(function(){
 				{ name: 'Kaylee', 	IGN: 'kaylee88', location: 'Nottingham, UK', timezone: 'Europe/London' },
 				{ name: 'Matt', 	IGN: 'Morton666', location: 'Nottingham, UK', timezone: 'Europe/London' },
 				{ name: 'Simon', 	IGN: 'SimonTheGoat', location: 'Derby, UK', timezone: 'Europe/London' },
-				{ name: '??', 	IGN: 'Smivverz', location: 'Ipswich, UK', timezone: 'Europe/London' },
+				{ name: 'Gary', 	IGN: 'Smivverz', location: 'Ipswich, UK', timezone: 'Europe/London' },
 				{ name: '??', 	IGN: 'Spartan-AROO', location: 'UK', timezone: 'Europe/London' },
 				{ name: '??', 	IGN: 'Stuart36', location: 'UK', timezone: 'Europe/London' },
 				{ name: '??', 	IGN: 'The Slimline', location: 'UK', timezone: 'Europe/London' },
