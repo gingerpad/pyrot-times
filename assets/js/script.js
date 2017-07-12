@@ -14,33 +14,34 @@ $(function(){
 			var me = this;
 
 			me.people = [
-				{ name: 'Noel',	IGN: 'nellob', location: 'Arizona, USA', timezone: 'MST' },
-				{ name: 'Ray',	IGN: 'Rekon19', location: '??, USA', timezone: 'MST' },
+				{ name: '',	IGN: 'GAME TIME', location: 'USA', timezone: 'US/Pacific' },
+				{ name: 'Noel',	IGN: 'nellob', location: 'Arizona, USA', timezone: 'US/Mountain' },
+				{ name: 'Ray',	IGN: 'Rekon19', location: '??, USA', timezone: 'US/Mountain' },
 				{ name: 'Elan',	IGN: 'es128', location: 'Miami, USA', timezone: 'US/Eastern' },
-				{ name: 'Nate',	IGN: 'Thatguy345', location: 'New York, USA', timezone: 'US/Eastern' },
-				{ name: '??',	IGN: 'jlewis8227', location: 'Kentucky, USA', timezone: 'US/Eastern' },
 				{ name: '??', 	IGN: 'evolkill', location: '??, USA', timezone: 'US/Eastern' },
+				{ name: '??',	IGN: 'jlewis8227', location: 'Kentucky, USA', timezone: 'US/Eastern' },
+				{ name: 'Nate',	IGN: 'Thatguy345', location: 'New York, USA', timezone: 'US/Eastern' },
 				{ name: '??',	IGN: 'Light Magicians', location: 'Trinidad', timezone: 'America/Port_of_Spain' },
-				{ name: 'Matt', 	IGN: 'Morton666', location: 'Nottingham, UK', timezone: 'Europe/London' },
-				{ name: 'Kaylee', 	IGN: 'kaylee88', location: 'Nottingham, UK', timezone: 'Europe/London' },
-				{ name: 'Paddy', 	IGN: 'Gingerpad', location: 'Nottingham, UK', timezone: 'Europe/London' },
-				{ name: '??', 	IGN: 'Karolis91', location: 'London, UK', timezone: 'Europe/London' },
 				{ name: 'Andy', 	IGN: 'Card64', location: 'Ipswich, UK', timezone: 'Europe/London' },
-				{ name: '??', 	IGN: 'Spartan-AROO', location: 'UK', timezone: 'Europe/London' },
-				{ name: 'Stephen', 	IGN: 'Stephen Brady', location: 'Dublin, Ireland', timezone: 'Europe/Dublin' },
-				{ name: '??', 	IGN: 'Toc.', location: 'Scotland', timezone: 'Europe/London' },
 				{ name: '??', 	IGN: 'Frodo2801', location: '??', timezone: 'Europe/London' },
-				{ name: '??', 	IGN: 'Stuart36', location: 'UK', timezone: 'Europe/London' },
+				{ name: 'Paddy', 	IGN: 'Gingerpad', location: 'Nottingham, UK', timezone: 'Europe/London' },
 				{ name: '??', 	IGN: 'judgey43', location: 'Essex, UK', timezone: 'Europe/London' },
+				{ name: '??', 	IGN: 'Karolis91', location: 'London, UK', timezone: 'Europe/London' },
+				{ name: 'Kaylee', 	IGN: 'kaylee88', location: 'Nottingham, UK', timezone: 'Europe/London' },
+				{ name: 'Matt', 	IGN: 'Morton666', location: 'Nottingham, UK', timezone: 'Europe/London' },
 				{ name: 'Simon', 	IGN: 'SimonTheGoat', location: 'Derby, UK', timezone: 'Europe/London' },
 				{ name: '??', 	IGN: 'Smivverz', location: 'Ipswich, UK', timezone: 'Europe/London' },
+				{ name: '??', 	IGN: 'Spartan-AROO', location: 'UK', timezone: 'Europe/London' },
+				{ name: '??', 	IGN: 'Stuart36', location: 'UK', timezone: 'Europe/London' },
 				{ name: '??', 	IGN: 'The Slimline', location: 'UK', timezone: 'Europe/London' },
+				{ name: '??', 	IGN: 'Toc.', location: 'Scotland, UK', timezone: 'Europe/London' },
+				{ name: 'Stephen', 	IGN: 'Stephen Brady', location: 'Dublin, Ireland', timezone: 'Europe/Dublin' },
 				{ name: '??', 	IGN: 'E.S.3', location: 'Albania', timezone: 'Europe/Tirane' },
 				{ name: '??', 	IGN: 'Mister_K', location: 'Belgium', timezone: 'Europe/Brussels' },
 				{ name: '??', 	IGN: 'Holm_1924', location: 'Denmark', timezone: 'Europe/Copenhagen' },
-				{ name: '??', 	IGN: 'Dearh Avenger', location: 'Norway', timezone: 'CET' },
+				{ name: '??', 	IGN: 'SamiTheGreat81', location: 'Finland', timezone: 'Europe/Helsinki' },
+				{ name: '??', 	IGN: 'Dearh Avenger', location: 'Norway', timezone: 'Europe/Oslo' },
 				{ name: 'Casper', 	IGN: 'Sathanas', location: 'Sweden', timezone: 'Europe/Stockholm' },
-				{ name: '??', 	IGN: 'SamiTheGreat81', location: 'Finland', timezone: 'CET' },
 				{ name: 'Maheshin', 	IGN: 'KILLER_PLAYER', location: 'South Africa', timezone: 'Africa/Johannesburg' },
 				{ name: 'Hiep', 	IGN: 'Rocky Cop', location: 'Singapore', timezone: 'Singapore' },
 				{ name: '??', 	IGN: 'Virgin69', location: 'Philippines', timezone: 'Asia/Manila' }
@@ -58,7 +59,12 @@ $(function(){
 
 				var detailsContainer = $('<div class="details"></div>');
 
-				var name = $('<h1>' + person.IGN + ' (' + person.name + ')' + '</h1>');
+				var nameString = person.IGN;
+				if(person.name != '') {
+					nameString += ' (' + person.name + ')';
+				}
+
+				var name = $('<h1>' + nameString + '</h1>');
 				var location = $('<p>' + person.location + '</p>');
 
 				detailsContainer.append(name).append(location);
@@ -186,7 +192,7 @@ $(function(){
 
 
 
-	console.log(moment.tz.names())
+	//console.log(moment.tz.names())
 	//var nowISO = new Date().toISOString();
 	//console.log(moment.tz(nowISO, 'Europe/London').format())
 
