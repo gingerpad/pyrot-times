@@ -28,6 +28,32 @@ section, footer, header, aside{
 	display: block;
 }
 
+.filters {
+	width:100%;
+	float:left;
+	padding-bottom:10px;
+}
+
+.filters .option {
+	width:25%;
+	float:left;
+	text-align:center;
+}
+
+.filters .option a {
+	display:block;
+	width:100%;
+	padding:10px 0;
+	color:#fff;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+
+.filters .option a.selected {
+	background-color:#fff;
+	color:#444;
+}
+
 .people {
 	width:100%;
 	max-width:320px;
