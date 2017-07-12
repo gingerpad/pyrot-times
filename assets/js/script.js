@@ -19,7 +19,7 @@ $(function(){
 				{ name: 'Elan',	IGN: 'es128', location: 'Miami, USA', timezone: 'US/Eastern' },
 				{ name: '??', 	IGN: 'evolkill', location: '??, USA', timezone: 'US/Eastern' },
 				{ name: '??',	IGN: 'jlewis8227', location: 'Kentucky, USA', timezone: 'US/Eastern' },
-				{ name: 'Noel',	IGN: 'nellob', location: 'Washingto, D.C., USA', timezone: 'US/Eastern' },
+				{ name: 'Noel',	IGN: 'nellob', location: 'Washington, D.C., USA', timezone: 'US/Eastern' },
 				{ name: 'Nate',	IGN: 'Thatguy345', location: 'New York, USA', timezone: 'US/Eastern' },
 				{ name: '??',	IGN: 'Light Magicians', location: 'Trinidad', timezone: 'America/Port_of_Spain' },
 				{ name: 'Andy', 	IGN: 'Card64', location: 'Ipswich, UK', timezone: 'Europe/London' },
