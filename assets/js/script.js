@@ -40,7 +40,7 @@ $(function(){
 				{ name: 'Nate',	IGN: 'Thatguy345', location: 'New York, USA', timezone: 'US/Eastern', group: 3 },
 				{ name: '??',	IGN: 'Light Magicians', location: 'Trinidad', timezone: 'America/Port_of_Spain', group: 3 },
 				{ name: 'Andy', 	IGN: 'Card64', location: 'Ipswich, UK', timezone: 'Europe/London', group: 1 },
-				{ name: '??', 	IGN: 'Frodo2801', location: '??', timezone: 'Europe/London', group: 3 },
+				{ name: 'Mike', 	IGN: 'Frodo2801', location: 'Stamford, UK', timezone: 'Europe/London', group: 3 },
 				{ name: 'Paddy', 	IGN: 'Gingerpad', location: 'Nottingham, UK', timezone: 'Europe/London', group: 2 },
 				{ name: '??', 	IGN: 'judgey43', location: 'Essex, UK', timezone: 'Europe/London', group: 3 },
 				{ name: '??', 	IGN: 'Karolis91', location: 'London, UK', timezone: 'Europe/London', group: 1 },
